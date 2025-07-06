@@ -1336,7 +1336,8 @@ input:checked + .slider:before {
 }
 .footer-bottom p{
  transition: transform 0.2s ease-in-out, background-color 0.3s;
- animation: pulse 2s infinite;
+ animation: popIn 0.5s forwards,
+ tagBounce 2s infinite ease-in-out;
 }
 
 .social-icons {
